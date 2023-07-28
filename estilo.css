@@ -1,0 +1,94 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: cadetblue;
+    height: 100px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 3px 7px;
+    border: none;
+    border-radius: 14px;
+    background-color: rgb(69, 82, 156);
+    font-size: 18px;
+    transition: all 0.7s;
+}
+.menu a:hover{
+    background-color: rgb(33, 43, 97);
+
+}
+
+form{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+form input{
+    height: 30px;
+    width: 280px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    font-size: 16px;
+}
+.btn{
+    width: 220px;
+    border: none;
+    background-color: rgb(33, 43, 97);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.btn:hover{
+    background-color: rgb(69, 82, 156);
+    color: white;
+}
+.hijo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -220px;
+}
+.hijo h4{
+    font-size: 18px;
+    color: rgb(231, 12, 12);
+}
+.hijo2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -342px;
+}
+.hijo2 h4{
+    font-size: 18px;
+    color: rgb(231, 12, 12);
+}
+.tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabla h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    margin-top: -220px;
+}
+.tabla table{
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+.delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
